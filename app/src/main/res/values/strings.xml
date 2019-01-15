@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SpielBox</string>
+    <string name="title_activity_labyrithn">Labyrithn</string>
+    <string name="labyrithn">Labyrithn</string>
+    <string name="play_music_btn">play Sound</string>
+    <string name="pause_music_btn">Sound pause</string>
+    <string name="score_0">Score: 0</string>
+    <string name="time_10">Time: 10</string>
+    <string name="menu">menu</string>
+    <string name="menu1">Menu</string>
+</resources>
