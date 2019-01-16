@@ -13,10 +13,11 @@ import java.util.Stack;
 public class GameView extends View {
 
     private Cell[][] cells;
+    private Cell spieler, raus;
     private static final int SPALTES = 7, REIHEN = 10;
     private float cellSize, hMargin, vMargin;
     private static final float Wandgrosse = 4;
-    private Paint wandFarbe;
+    private Paint wandFarbe, spielerFarbe, rausFarbe;
     private Random random;
 
 
@@ -161,7 +162,22 @@ public class GameView extends View {
                      );
              }
          }
-          //canvas.translate(hMargin, vMargin);
+
+         float margin = cellSize/10;
+
+         canvas.drawRect(
+                 spieler.spalte*cellSize,
+                 spieler.reihe*cellSize,
+                 (spieler.spalte+1)*cellSize,
+                 (spieler.reihe+1)*cellSize ,
+                 spielerFarbe );
+
+         canvas.drawRect(
+                 raus.spalte*cellSize,
+                 raus.reihe*cellSize,
+                 (raus.spalte+1)*cellSize,
+                 (raus.reihe+1)*cellSize ,
+                 rausFarbe );
      }
 
     private class Cell {
