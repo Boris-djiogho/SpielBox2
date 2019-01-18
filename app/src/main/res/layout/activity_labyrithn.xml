@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <view
-        class="GameView"
+        class="com.example.morgan.spielbox.Labyrithn$GameView"
         id="@+id/view2"
         android:layout_width="0dp"
         android:layout_height="0dp"
