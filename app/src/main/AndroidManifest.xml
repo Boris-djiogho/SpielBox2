@@ -19,7 +19,10 @@
         <activity android:name=".Labyrithn" />
         <activity android:name=".Sonic" />
         <activity android:name=".Sonic1" />
-        <activity android:name=".Sonic2"></activity>
+        <activity android:name=".Sonic2" />
+        <activity android:name=".Medium" />
+        <activity android:name=".Hard" />
+        <activity android:name=".Ultimate"></activity>
     </application>
 
 </manifest>

@@ -19,7 +19,7 @@ import java.util.Stack;
 public class Labyrithn extends AppCompatActivity {
 
     private Button menu;
-    private GameView gameView;
+    protected GameView gameView;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

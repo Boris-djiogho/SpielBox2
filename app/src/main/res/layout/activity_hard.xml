@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="Sonic2">
+    tools:context=".Hard">
 
     <android.support.v7.widget.GridLayout
         android:id="@+id/gridLayout"
@@ -26,7 +26,7 @@
             android:onClick="increaseScore"
             app:layout_column="0"
             app:layout_row="0"
-            app:srcCompat="@drawable/sonic" />
+            app:srcCompat="@drawable/smedium" />
 
         <ImageView
             android:id="@+id/imageView2"
@@ -36,7 +36,7 @@
             android:layout_height="120dp"
             app:layout_column="1"
             app:layout_row="0"
-            app:srcCompat="@drawable/sonic" />
+            app:srcCompat="@drawable/smedium" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -46,7 +46,7 @@
             android:layout_height="120dp"
             app:layout_column="2"
             app:layout_row="0"
-            app:srcCompat="@drawable/sonic" />
+            app:srcCompat="@drawable/smedium" />
 
         <ImageView
             android:id="@+id/imageView4"
@@ -56,7 +56,7 @@
             android:layout_height="120dp"
             app:layout_column="0"
             app:layout_row="1"
-            app:srcCompat="@drawable/sonic" />
+            app:srcCompat="@drawable/smedium" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -66,7 +66,7 @@
             android:layout_height="120dp"
             app:layout_column="1"
             app:layout_row="1"
-            app:srcCompat="@drawable/sonic" />
+            app:srcCompat="@drawable/smedium" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -76,7 +76,7 @@
             android:layout_height="120dp"
             app:layout_column="2"
             app:layout_row="1"
-            app:srcCompat="@drawable/sonic" />
+            app:srcCompat="@drawable/smedium" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -86,7 +86,7 @@
             android:layout_height="120dp"
             app:layout_column="0"
             app:layout_row="2"
-            app:srcCompat="@drawable/sonic" />
+            app:srcCompat="@drawable/smedium" />
 
         <ImageView
             android:id="@+id/imageView8"
@@ -96,7 +96,7 @@
             android:layout_height="120dp"
             app:layout_column="1"
             app:layout_row="2"
-            app:srcCompat="@drawable/sonic" />
+            app:srcCompat="@drawable/smedium" />
 
         <ImageView
             android:id="@+id/imageView9"
@@ -106,7 +106,7 @@
             android:layout_height="120dp"
             app:layout_column="2"
             app:layout_row="2"
-            app:srcCompat="@drawable/sonic" />
+            app:srcCompat="@drawable/smedium" />
 
 
     </android.support.v7.widget.GridLayout>
